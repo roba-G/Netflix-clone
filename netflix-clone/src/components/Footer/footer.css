@@ -1,0 +1,69 @@
+/* footer.css */
+
+.footer {
+  padding: 40px 0;
+  border-top: 8px solid #222;
+  background-color: black;
+  color: #757575;
+  font-size: 14px;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 8px 0;
+}
+
+.footer-links a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  font-size: 24px;
+  color: white;
+}
+
+.footer-icons svg:hover {
+  color: #e50914;     /* Netflix red on hover */
+  cursor: pointer;
+}
+
+.footer-lang select {
+  padding: 8px;
+  background: transparent;
+  border: 1px solid #757575;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  font-size: 13px;
+}

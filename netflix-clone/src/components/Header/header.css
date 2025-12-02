@@ -1,0 +1,90 @@
+/* MAIN HEADER CONTAINER */
+
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  background-color: transparent;
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+  /* width: 100%; */
+}
+.header_container {
+  position: sticky;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 40px; */
+  background-color: black;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  z-index: 100;
+  color: black;
+}
+
+/* LEFT SIDE */
+.header_left ul,
+.header_right ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+
+.header_left ul li {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.header_left ul li:hover {
+  color: #272323;
+}
+
+/* NETFLIX LOGO */
+.header_left img {
+  cursor: pointer;
+  object-fit: contain;
+}
+
+/* RIGHT SIDE ICONS */
+.header_right ul li {
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+/* ICON HOVER EFFECT */
+.header_right ul li:hover {
+  color: #e50914;
+}
+
+/* SMALL SCREENS */
+@media (max-width: 900px) {
+  .header_left ul li:not(:first-child) {
+    display: none; /* hide menu items, keep logo visible */
+  }
+}
+
+@media (max-width: 600px) {
+  .header_container {
+    padding: 0 20px;
+  }
+
+  .header_right ul {
+    gap: 15px;
+  }
+}
