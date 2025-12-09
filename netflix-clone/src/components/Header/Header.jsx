@@ -10,7 +10,6 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 function Header() {
   return (
-    <div className="header_outer_container">
       <div className="header_container">
         <div className="header_left">
           <ul>
@@ -43,7 +42,6 @@ function Header() {
           </ul>
         </div>
       </div>
-    </div>
   );
 }
 
