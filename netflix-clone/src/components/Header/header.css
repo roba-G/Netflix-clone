@@ -13,22 +13,22 @@
   transition: all 0.5s;
   transition-timing-function: ease-in;
   z-index: 1;
-  /* width: 100%; */
+  width: 100%;
 }
 .header_container {
-  position: sticky;
-  width: 100%;
+  /* position: sticky; */
+   width: 100%;
   height: 70px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  /* padding: 0 40px; */
-  background-color: black;
+  justify-content: space-between; 
+  padding: 0 40px;
+  /* background-color: black; */
   /* position: fixed; */
-  top: 0;
+  /* top: 0;
   left: 0;
-  z-index: 100;
-  color: black;
+  z-index: 100; */
+  /* color: black; */
 }
 
 /* LEFT SIDE */
@@ -49,7 +49,7 @@
 }
 
 .header_left ul li:hover {
-  color: #272323;
+  color: #e50914;
 }
 
 /* NETFLIX LOGO */
